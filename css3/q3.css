@@ -1,0 +1,12 @@
+.x {
+    border-style: solid;
+    width:200px;
+}
+.y {
+    border-style: double;
+    width:200px;
+}
+.z{
+    border-style: ridge;
+    width:200px;
+}

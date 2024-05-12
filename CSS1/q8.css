@@ -1,0 +1,17 @@
+body {
+    background-color: aquamarine;
+}
+#f {
+  color: red;  
+  background-color: white;
+}
+#k {
+    background-image: url(th.jpg);
+    background-size: cover;
+    color: bisque;
+}
+#m {
+    background-image: url(OIP.jpg);
+    color: white;
+    background-size: cover;
+}

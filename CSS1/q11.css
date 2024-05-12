@@ -1,0 +1,29 @@
+form {
+    border-style: outset;
+    background-color: bisque;
+    border-width: 10px;
+    padding: 40px;
+    width: 500px;
+    
+}
+h1 {
+    background-color:indianred ;
+    color: white;
+    text-align: center;
+    width:400px;
+    padding: 10px;
+    margin: 20px;
+}
+.a {
+    width:400px;
+    padding: 10px;
+    margin: 20px;
+}
+#r {
+    border-style: solid;
+    background-color:rgb(255, 184, 3);
+    text-align: center;
+    width:420px;
+    padding: 10px;
+    margin: 20px;
+}

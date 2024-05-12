@@ -1,0 +1,8 @@
+h2 {
+    background-color: blue;
+}
+div {
+    background-image: url(th.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+}

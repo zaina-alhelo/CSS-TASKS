@@ -1,0 +1,13 @@
+table {
+    border-style: solid;
+    background-color: aquamarine;
+    
+    border: 5px outset white ;
+
+}
+#k {
+    color: red;
+    text-align: center;
+    background-color:bisque;
+    
+}

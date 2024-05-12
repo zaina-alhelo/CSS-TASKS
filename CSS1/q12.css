@@ -1,0 +1,7 @@
+div  {
+        
+        background-image: -webkit-linear-gradient(85deg,#1f1f7a 0%  , 	#d4ff00 50%, #80005a 50%,	 #05c605 100%	);
+        background-image: -webkit-linear-gradient(85deg,#05c605 0% , 	#d4ff00 50%, #80005a 50%,	 #1f1f7a 100%  	);
+        text-align: center;
+        padding: 10px;
+    }

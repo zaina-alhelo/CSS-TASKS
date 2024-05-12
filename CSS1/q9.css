@@ -1,0 +1,28 @@
+h1 {
+    color: darkolivegreen;
+    font-family:fantasy;
+    font-size: 50px;
+    font-weight: bold;
+}
+.n {
+    color: aqua;
+    font-size: 20px;
+}
+#o
+{
+    background-color: aqua;
+    color: rgb(124, 157, 67);
+}
+div#l {
+    background-color:lightblue;
+}
+.x {
+    color:red ;
+}
+#u {
+    color: blue;
+}
+div#t {
+    background-color: pink;
+     text-align: center;
+}

@@ -1,0 +1,11 @@
+.z {
+text-transform: uppercase;
+}
+.x {
+    text-transform: lowercase;
+
+}
+.y {
+    text-transform: capitalize;
+
+}

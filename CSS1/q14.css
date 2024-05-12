@@ -1,0 +1,8 @@
+body{
+
+    background-image: url('th.jpg'), url('OIP.jpg');
+    background-repeat: repeat-y, repeat-x;
+    background-size: 300px;
+    
+
+}

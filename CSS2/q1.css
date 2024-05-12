@@ -1,0 +1,19 @@
+h2 {
+    
+    text-decoration-line: overline ;
+    text-decoration-color: green;
+}
+h3 {
+  
+    text-decoration: underline;
+    text-decoration-color: blueviolet;
+}
+h4 {
+    text-decoration: underline overline;
+    text-decoration-color: blue;
+
+}
+.g {
+    text-decoration: line-through;
+    text-decoration-color: darkgrey;
+}

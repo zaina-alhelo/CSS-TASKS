@@ -1,0 +1,19 @@
+body {
+    background-color: blanchedalmond;
+}
+.p {
+background-color: blueviolet;
+}
+.x {
+    background-color:aqua;
+
+}
+.s {
+    background-color: red;
+
+}
+.u {
+    border: 2px solid black;
+    text-align: center;
+    width: 100px;
+}
