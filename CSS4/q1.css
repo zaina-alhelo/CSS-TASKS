@@ -1,0 +1,17 @@
+.z {
+border: 2px solid black;
+padding-bottom: 50px;
+position: relative;
+}
+.x {
+position: absolute;
+ background-color: blue;
+ padding:80px;
+ color: white;
+}
+.y {
+position: fixed  ;
+z-index:20px;
+background-color:aquamarine;
+padding: 50px;
+}
