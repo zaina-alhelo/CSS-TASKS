@@ -8,10 +8,15 @@ position: absolute;
  background-color: blue;
  padding:80px;
  color: white;
+ width: 50%;
 }
 .y {
 position: fixed  ;
 z-index:20px;
 background-color:aquamarine;
 padding: 50px;
+top:10px;
+right: 100px;
+width:75%;
+left:200px
 }
