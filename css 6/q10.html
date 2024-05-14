@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main {
+            border: 2px gray groove;
+            padding: 10px;
+            display: grid;
+            width: 300px;
+
+        }
+        .d {
+            width: 25px;
+            height: 25px;
+            background-color: red;
+            border-radius: 50%;
+            
+            
+            
+        }
+        .header {
+            display: grid;
+            grid-template-columns: auto auto ;
+            grid-template-rows: auto auto;
+        }
+        .header > div {
+            display: inline-block;
+            
+        }
+        .box {
+            
+            height: 100px;
+            background-color: red;
+            
+        }
+        hr {
+            border: 2px solid silver;
+            width: 300px;
+        }
+        .g > div{
+            display: inline-block;
+            background-color: red;
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+        }
+        .footer {
+            display: inline-flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="d"></div>
+                          
+            <div><b>Arnold Schwarzenegger </b></div>
+            <div><u><small>Editar</small></u></div>
+
+        </div>
+       <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse nesciunt sed laboriosam est, totam rerum omnis nulla deleniti vel aliquam dicta iste consectetur soluta. Exercitationem corrupti sequi voluptatibus. Quasi, suscipit?</div>
+        <br>
+       <div class="box"></div>
+       <hr>
+    <div class="footer">
+         <div>like</div>
+         <div>Tweet</div>
+         <div>Comment</div>
+       <div class="g"> 
+         <div></div>
+         <div></div>
+         <div></div>
+         <div></div>
+         <div></div>
+         <div></div>
+         <div></div>
+       </div>
+    </div>
+    
+    </div>
+</body>
+</html>

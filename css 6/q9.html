@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main {
+            display: grid;
+            grid-template-columns: 50px 50px 50px;
+            grid-template-rows: 50px 50px 50px;
+        
+        }
+        .top {
+            grid-area: 1/1;
+           background-color: brown;
+           opacity: 70%;
+           width:200px;
+           height: 200px;
+           /* position:absolute; */
+          
+        }
+        .middle {
+            grid-area: 3/3;
+            background-color: green;
+            opacity: 80%;
+            width:200px;
+           height: 200px;
+           /* position: absolute; */
+          
+        }
+        .bottom {
+            grid-area:2/2 ;
+            background-color: blue;
+            opacity: 60%;
+            width:200px;
+           height: 200px;
+           /* position: r; */
+           
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="top">Top</div>
+        <div class="middle">Middle</div>
+        <div class="bottom">Bottom</div>
+    </div>
+</body>
+</html>

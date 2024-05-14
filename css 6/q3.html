@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        margin: 15px;
+    
+        display: grid;
+        grid-template-rows: repeat(7,75px);
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 10px;
+        row-gap: 10px;
+        height: 100vh;
+        grid-template-areas:
+                    "header header header"
+                " sidebar nav nav"   " sidebar article article"
+                " sidebar article article" " sidebar article article" " sidebar article article"
+                  "footer footer footer"  ;
+    }
+    .header {
+        grid-area: header;
+        background-color:gold;
+        border-radius: 5%;
+        color: white;
+        
+        
+       text-align: center;
+        
+    }
+    .footer {
+        grid-area: footer;
+        background-color:rgb(54, 53, 53);
+        text-align: center;
+        color: white;
+        border-radius: 5%;
+
+
+    }
+    .sidebar {
+        grid-area: sidebar;
+        background-color:indianred;
+        text-align: center;
+        color: white;
+        border-radius: 5%;
+
+       
+             
+    }
+    .article {
+         background-color: silver;
+        grid-area: article;
+        color: white;
+        text-align: center;
+        font-size: 15px;
+        padding: 5px;
+        margin: 5px;
+        border-radius: 5%;
+
+    }
+    .nav{
+        grid-area: nav;
+        background-color:aqua;
+        text-align: center;
+        color: white;
+        border-radius: 5%;
+
+        
+    }
+</style>
+<body>
+    <div class="header">Header</div>
+    <div class="sidebar">sidebar</div>
+    <div class="nav">nav</div>
+    <div class="article"><div>Article</div>
+        <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel minus quis eaque quibusdam tempore tenetur velit maiores voluptatum harum doloribus quisquam recusandae itaque, quas ut eligendi doloremque blanditiis sunt provident.</div><br>
+        <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel minus quis eaque quibusdam tempore tenetur velit maiores voluptatum harum doloribus quisquam recusandae itaque, quas ut eligendi doloremque blanditiis sunt provident.</div><br>
+        <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel minus quis eaque quibusdam tempore tenetur velit maiores voluptatum harum doloribus quisquam recusandae itaque, quas ut eligendi doloremque blanditiis sunt provident.</div><br>
+    </div>
+    <div class="footer">Footer</div>
+</body>
+</html>

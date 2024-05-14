@@ -5,39 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-     .p {
+         body {
+            display: flex;
+            border:2px solid black;
+            height: 100vh;
+            flex-direction: column;
+            
+            /* justify-content: space-between; */
+         }
+        .p {
+            display: flex;
+            
+            width:100%;
+            justify-content: space-between;
+           border: 2px solid silver;
+
+        }
+        /* .img {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        } */
+      
+      .header div {
+        display: inline;
+        margin: 5px;
+      }
+      .main {
         display: flex;
-        border: 2px solid black;
-        width:100%;
-        height: 100%;
-        
-        
-     }
-     .a {
-     padding: 5px;
-     justify-content: space-between;
-     }
-   
-    img {
-        width:300px;
-        
-    }
+       
+         justify-content: center;    
+
+          }
+
     </style>
 </head>
 <body>
     <div class="p">
-     <div class="a"> 
-        <a>About</a>
-        <a>Store</a>
-     </div>
-    <div class="a">
-        <a>profile</a>
-        <a>sittigs</a>
-    </div><br><br>
-    <div><img src="OIP.jpg"></div>
-     
 
-
+            <div class="header" >
+                <div>About</div>
+                <div>Store</div>
+            </div>
+            <div class="header" >
+                <div>profile</div>
+                <div>Sittings</div>
+            </div>      
+            
+        
     </div>
+    <div class="img">
+    <div class="main">
+        <div><img src="OIP.jpg" width="200px" height="200px"></div>
+       <div> <input type="text"></div>
+       <div>
+        <div><button>Do the thing</button></div>
+        <div><button>Do the other thing</button></div>
+       </div>
+    </div>
+</div>
 </body>
 </html>

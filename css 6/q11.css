@@ -1,0 +1,76 @@
+.main {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+.Item1 {
+    background-color:rgb(246, 243, 243);
+}
+.Item2 {
+    
+    background-color:rgb(246, 243, 243);
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    row-gap: 5px;
+    column-gap: 5px;
+}
+.Item3 {
+    background-color:rgb(246, 243, 243);
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    row-gap: 5px;
+    column-gap: 5px;
+}
+.Item4 {
+    background-color:rgb(246, 243, 243);
+}
+.Item5 {
+    background-color:rgb(246, 243, 243);
+}
+.Item6 {
+    background-color:rgb(246, 243, 243);
+    display: grid;
+    grid-template-rows: auto auto;
+    row-gap: 5px;
+    column-gap: 5px;
+    
+}
+.Item7 {
+    background-color:rgb(246, 243, 243);
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 5px;
+    column-gap: 5px;
+}
+.Item8 {
+    background-color:rgb(246, 243, 243);
+}
+.Item9 {
+    background-color:rgb(246, 243, 243);
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    row-gap: 5px;
+    column-gap: 5px;
+}
+.Item10 {
+    background-color:rgb(246, 243, 243);
+}
+.Item11 {
+    background-color:rgb(246, 243, 243);
+}
+.Item12{
+    background-color:rgb(246, 243, 243);
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    row-gap: 5px;
+    column-gap: 5px;
+}
+.x {
+    background-color: rgb(158, 158, 158);
+}
